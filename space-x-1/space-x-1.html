@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Space-X Ship Index</title>
+    <link rel="stylesheet" type="text/css" href="space-x-1.css">
+</head>
+<body>
+    <div id="header" class="line" >
+        <div id="crew_block" class="block" >
+          <div class="header_text">
+            <small class="label_block">Crew</small>
+            <div class="title_block">DRAGON</div>
+          </div>
+        </div>
+        <div id="perigee_block" class="block" >
+            <small class="label_block">Perigee</small>
+            <div>
+              <img src="blue_line.png" alt="blue_line">
+            </div>
+            <div class="title_block">185.013<span>m</span></div>
+                    </div>
+        <div id="apogee_block" class="block" >
+                <small class="label_block">Apogee</small>
+                <div>
+                  <img src="blue_line.png" alt="blue_line">
+                </div>
+                <div class="title_block">360.304<span>m</span></div>
+        </div>
+        <div id="relative_block" class="block" >
+            <div class="text">
+                <small class="label_block">Relative Altitude</small>
+                <div class="title_block">50,948<span>m</span></div>
+            </div>
+
+            <div class="icon">
+                <i class="icon_arrow_down"></i>
+                <!--ARROW DOWN-->
+            </div>
+
+        </div>
+        <div id="range_block" class="block">
+            <div class="text">
+                <small class="label_block">Range to ISS</small>
+                <div class="title_block">625,713<span>m</span></div>
+            </div>
+            <div class="icon">
+                <i class="icon_arrow_down"></i>
+                <!--ARROW DOWN-->
+            </div>
+
+        </div>
+    </div>
+    <div id="space_earth" class="line">
+        <img class="space_earth_image" src="http://sfwallpaper.com/images/earth-from-space-hd-wallpaper-7.jpg" alt="planet_space" width="100%">
+    </div>
+    <div id="time" class="line">
+        <div id="time_block" class="block">
+            <small class="small">Day 131</small>
+            <div class="time_large">13:46:11</div>
+        </div>
+
+        <div id="arrow_block" class="block">
+            <div class="speed_arrow"></div>
+            <!--arrows-->
+        </div>
+
+        <div id="next_burn_block" class="block">
+            <span class="next_burn">Next Burn</span>
+            <span class="enabled">Enabled</span>
+            <div class="next_burn_index">-0:05:48</div>
+            <span class="next_burn_time">13:52:00</span>
+            <span class="next_burn_day"><small>DAY 131</small></span>
+        </div>
+
+        <div id="target_block" class="block">
+            <span class="target">Target ΔV</span>
+            <div class="target_speed">33.5m/s</div>
+            <span class="target_temps">Thruster Temps</span>
+        </div>
+
+    </div>
+    <div id="alarms" class="line">
+        <div class="zero">0</div>
+        <div class="alarms_word">ALARMS</div>
+        <div class="all_systems_nominal">ALL SYSTEMS NOMINAL</div>
+        <div class="sign"></div>
+    </div>
+    <div id="plan" class="line">
+        <div id="first_box" class="block">
+            <div class="minus_index">-0:08:24</div>
+            <span class="next_los">Next LOS</span>
+            <span class="date_time">13:54:36</span>
+            <small class="under_text">(00:03:17)</small>
+            <small class="date_day">DAY 131</small>
+        </div>
+        <div id="second_box" class="block">
+            <div class="minus_index">-2:51:02</div>
+            <span class="next_los">Estimated Iss Arrival</span>
+            <small class="date_time">16:37:15</small>
+            <small class="date_day">DAY 131</small>
+        </div>
+        <div id="third_box" class="block">
+            <div class="minus_index">-0:23:23</div>
+            <span class="next_los">Next Deorbit Window</span>
+            <span class="next_los">Pacific</span>
+            <small class="date_time">14:09:36</small>
+            <small class="date_day">DAY 131</small>
+            <div class="break_line"></div>
+            <div class="current_breakout">Current_breakout</div>
+            <div class="retrograde">Retrograde</div>
+            <div class="sum">ΔV=5.0 m/s</div>
+        </div>
+    </div>
+    <div id="schedule" class="block">
+        <div>
+            <span class="schedule">Schedule</span>
+            <span class="all_events">ALLEVENTS </span>
+            <div class="done_sign"></div>
+            <div class="divide_line"></div>
+        </div>
+        <div class="time_list">
+            <div class="time_list">13:10:00</div>
+            <div class="time_list">13:37:00</div>
+            <div class="time_list">13:46:45</div>
+            <div class="time_list">13:52:10</div>
+        </div>
+        <div class="rendez_vous">
+            <span>Rendezvous Burn GO/NO-Go</span>
+            <span>Ground</span>
+            <div></div>
+            <span>Rendezvous for rendezvous burn</span>
+            <span>Crew</span>
+            <div></div>
+            <span>Rendezvous burn slow</span>
+            <span>Dragon</span>
+            <div></div>
+            <span>Rendezvous Burn</span>
+            <span>Dragon</span>
+        </div>
+    </div>
+    <div class="rendezvous_approach_line">
+        <span id="rendezvous_line">Rendezvous</span>
+        <span id="approach_line">Approach</span>
+    </div>
+    <div class="progress"></div>
+</body>
+</html>

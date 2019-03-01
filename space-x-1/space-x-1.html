@@ -70,16 +70,23 @@
         </div>
 
         <div id="next_burn_block" class="block">
-            <span class="next_burn">Next Burn</span>
-            <span class="enabled">Enabled</span>
-            <div class="next_burn_index">-0:05:48</div>
-            <span class="next_burn_time">13:52:00</span>
-            <span class="next_burn_day"><small>DAY 131</small></span>
+          <div class="whole_next_burn">
+            <div class="next_burn_enab">
+              <span class="next_burn">Next Burn</span>
+              <span class="enabled">Enabled</span>
+              <span class="blue_circle"></span>
+            </div>
+              <div class="next_burn_index">-0:05:48</div>
+              <span class="next_burn_time">13:52:00</span>
+              <span class="next_burn_day"><small>DAY 131</small></span>
+          </div>
         </div>
 
         <div id="target_block" class="block">
             <span class="target">Target ΔV</span>
-            <div class="target_speed">33.5m/s</div>
+            <div class="target_speed">33.5
+              <small>m/s</small>
+            </div>
             <span class="target_temps">Thruster Temps</span>
         </div>
 
@@ -88,19 +95,21 @@
         <div class="zero">0</div>
         <div class="alarms_word">ALARMS</div>
         <div class="all_systems_nominal">ALL SYSTEMS NOMINAL</div>
-        <div class="sign"></div>
+        <div class="sign">
+          <img src="/home/yurii/eli4ka/cursor/Cursor/space-x-1/done_sign.png" alt="done_sign">
+        </div>
     </div>
     <div id="plan" class="line">
         <div id="first_box" class="block">
             <div class="minus_index">-0:08:24</div>
             <span class="next_los">Next LOS</span>
             <span class="date_time">13:54:36</span>
-            <small class="under_text">(00:03:17)</small>
+            <small id="in_brack" class="under_text">(00:03:17)</small>
             <small class="date_day">DAY 131</small>
         </div>
         <div id="second_box" class="block">
             <div class="minus_index">-2:51:02</div>
-            <span class="next_los">Estimated Iss Arrival</span>
+            <span id="estimated_iss" class="next_los">Estimated Iss Arrival</span>
             <small class="date_time">16:37:15</small>
             <small class="date_day">DAY 131</small>
         </div>

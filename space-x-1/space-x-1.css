@@ -5,20 +5,24 @@
 * {padding: 0; margin:0; border:0;}
 
 #header {
+  font-family: 'Robot', sans-serif;
+  font-weight:bold;;
   width: 100%;
   color: #fff;
   background-color: rgb(99,119,158);
   display: flex;
     }
-.line .block {
-      flex-grow: 1;
 
+.line .block {
+  flex-grow: 1;
 }
+
 .label_block {
   font-family: 'Teko', sans-serif;
   font-size: 12px;
   margin-left: 5%;
 }
+
 .title_block {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   font-size: 35px;
@@ -60,20 +64,151 @@
       }
 
 .time_large {
-    font-size: 40px;
+    font-size: 70px;
     margin-left: 3px;
     width: 200px;
   }
 
-.small {
-  font-size: 12px;
+#time_block .small {
+  font-size: 13px;
   margin-left: 6px;
+
+
 }
+
 .speed_arrow {
   display: flex;
   justify-content: center;
   }
 
 .speed_arrow img {
-  width: 220px;
+  width: 200px;
+}
+
+.whole_next_burn {
+  width: 170px;
+}
+.next_burn_enab {
+  margin-top:  18px;
+  margin-left: 10px;
+  }
+
+.next_burn {
+  font-size: 12px;
+  color: rgb(167,168,194);
+  margin-left: 35px;
+}
+.enabled {
+  font-size: 12px;
+  color: rgb(152,236,243);
+  margin-left: 10px;
+  }
+
+.blue_circle {
+  height: 9px;
+  width: 9px;
+  background-color: rgb(152,236,243);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.next_burn_index {
+  font-size: 45px;
+  margin-left: 35px;
+}
+
+.next_burn_time {
+  margin-left: 47px;
+  font-size: 12px;
+}
+
+.next_burn_day {
+  color: rgb(167,168,194);
+  margin-left: 17px;
+  font-size: 12px;
+}
+
+#target_block {
+  width: 150px;
+  padding-top: 20px;
+  padding-left: 20px
+}
+.target {
+  color: rgb(167,168,194);
+}
+.target_speed {
+  font-size: 45px;
+}
+.target_temps {
+  color: rgb(152,236,243);
+}
+
+#alarms {
+  display: flex;
+  height: 100px;
+}
+.zero {
+  font-size: 60px;
+  margin-top:  15px;
+  margin-left: 15px;
+  color: rgb(192,240,242);
+}
+
+.alarms_word {
+  margin-left: 15px;
+  margin-top: 30px;
+  font-size: 35px;
+  color: rgb(192,240,242);
+}
+
+.all_systems_nominal {
+  justify-content: flex-end;
+  font-size: 35px;
+  margin-left: 330px;
+  margin-top: 30px;
+}
+
+.sign img {
+  margin-left: 10px;
+}
+
+#first_box, #second_box {
+  display: flex;
+  height: 70px;
+  width: 50%;
+}
+
+/* #estimated_iss {
+  width: 300px;
+  } */
+#00:02:17 {
+
+}
+.minus_index {
+  font-size: 35px;
+  margin: 20px;
+}
+
+.next_los {
+  font-size: 14px;
+  margin-top: 25px;
+  height 15px;
+  width:
+}
+
+.under_text {
+  height: 15px;
+  margin-top: 40px;
+  margin-left: -115px;
+  font-size: 13px;
+}
+.date_time {
+  height: 15px;
+  font-size: 14px;
+  margin: 100px;
+
+}
+
+.date_day {
+  height: 15px;
 }

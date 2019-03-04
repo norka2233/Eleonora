@@ -133,7 +133,7 @@
   padding-top: 20px;
   padding-left: 20px
 }
-.target {
+.target, .next_los, .date_time {
   color: rgb(167,168,194);
 }
 .target_speed {
@@ -178,37 +178,30 @@
   width: 50%;
 }
 
-/* #estimated_iss {
-  width: 300px;
-  } */
-#00:02:17 {
-
-}
-.minus_index {
+.minus_index_one, .minus_index_two {
+  margin-top: 15px;
+  margin-left: 10px;
   font-size: 35px;
-  margin: 20px;
+  height: 44px;
+}
+.next_los_flex, .next_los {
+    font-size: 16px;
+    /* margin-left: 25px; */
+    margin: 20px;
+    height: 13px;
 }
 
-.next_los {
-  font-size: 14px;
-  margin-top: 25px;
-  height 15px;
-  width:
-}
-
-.under_text {
-  height: 15px;
-  margin-top: 40px;
-  margin-left: -115px;
-  font-size: 13px;
-}
 .date_time {
-  height: 15px;
-  font-size: 14px;
-  margin: 100px;
-
+  font-size: 16px;
+  margin-top: 20px;
+  width: 50px;
+  margin-left: 200px;
+}
+.date_time_day {
+  margin-left: 300px;
 }
 
-.date_day {
-  height: 15px;
+
+#time_index {
+  color: #fff;
 }

@@ -186,7 +186,6 @@
 }
 .next_los_flex, .next_los {
     font-size: 16px;
-    /* margin-left: 25px; */
     margin: 20px;
     height: 13px;
 }
@@ -194,13 +193,11 @@
 .date_time {
   font-size: 16px;
   margin-top: 20px;
-  width: 50px;
-  margin-left: 200px;
+  margin-left: 340px;
 }
 .date_time_day {
   margin-left: 300px;
 }
-
 
 #time_index {
   color: #fff;

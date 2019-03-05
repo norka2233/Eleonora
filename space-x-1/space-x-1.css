@@ -238,5 +238,48 @@
   padding-left: 25px;
   height: 150px;
   width: 100px;
+}
 
+.container {
+  width: 100%;
+  background: rgb(116,140,171);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  }
+.rendezvous_approach_line{
+    display: flex;
+    }
+.rendezvous_approach_line .rendezvous  {
+  flex-grow: 2;
+}
+
+.rendezvous_approach_line .approach {
+  flex-grow: 1;
+}
+
+.rendezvous, .approach {
+  background-color: rgb(130,161,195);
+  padding: 10px 15px;
+  border: 2px rgb(92,120,155)solid;
+}
+
+.progress_line {
+    background: rgb(156,237,241);
+    height: 25px;
+    width: 40%;
+    transition: all 1s ease-in-out;
+  }
+
+.box {
+
+}
+
+.box_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box_cell {
+  flex-grow: 1;
 }

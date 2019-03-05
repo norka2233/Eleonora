@@ -164,7 +164,7 @@
 .all_systems_nominal {
   justify-content: flex-end;
   font-size: 35px;
-  margin-left: 330px;
+  margin-left: 630px;
   margin-top: 30px;
 }
 
@@ -172,33 +172,71 @@
   margin-left: 10px;
 }
 
-#first_box, #second_box {
+.first_box, .second_box, {
   display: flex;
   height: 70px;
-  width: 50%;
+  width: 100%;
 }
 
-.minus_index_one, .minus_index_two {
+.third_box {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+  .minus_index {
   margin-top: 15px;
   margin-left: 10px;
   font-size: 35px;
   height: 44px;
 }
-.next_los_flex, .next_los {
+
+/* .next_los_flex, .next_los {
+
     font-size: 16px;
     margin: 20px;
     height: 13px;
-}
+} */
 
-.date_time {
-  font-size: 16px;
+/* .date_time {
+  /* font-size: 16px;
   margin-top: 20px;
-  margin-left: 340px;
-}
-.date_time_day {
+  margin-left: 340px; */
+} */
+/* .date_time_day {
   margin-left: 300px;
+} */ */
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-#time_index {
-  color: #fff;
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  width: 100%
+}
+
+.in_row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  padding: 20px;
+  }
+
+.all_events {
+  font-size: 25px;
+  margin-right: 20px;
+}
+.time_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-left: 25px;
+  height: 150px;
+  width: 100px;
+
 }

@@ -3,15 +3,16 @@
 @import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
 
 * {padding: 0; margin:0; border:0;}
-
+body {
+  background-color: rgb(114,129,175);
+}
 #header {
   font-family: 'Robot', sans-serif;
+  display: flex;
   font-weight:bold;;
   width: 100%;
   color: #fff;
-  background-color: rgb(99,119,158);
-  display: flex;
-    }
+}
 
 .line .block {
   flex-grow: 1;
@@ -72,8 +73,17 @@
 #time_block .small {
   font-size: 13px;
   margin-left: 6px;
+}
+#crew_block {
+  background-color: rgb(153,172,213);
+}
 
+#arrow_block, #next_burn_block, #target_block {
+  background-image: linear-gradient(#7f96bc, #57728e);
+}
 
+.first_box, .third_box, .header_block, #time_block {
+  background-image: linear-gradient(#57728e, #7f96bc);
 }
 
 .speed_arrow {
@@ -134,7 +144,7 @@
   padding-left: 20px
 }
 .target, .grey_font_basic {
-  color: rgb(167,168,194);
+  color: rgb(187,203,201);
 }
 
 .date_time {
@@ -142,13 +152,22 @@
   margin-top: 3%;
 }
 
+.hours_list {
+  margin-top: 2px;
+}
 .fix_position {
     margin-top: 3%;
-    margin-right: 30%;
+    margin-right: 42%;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.time_color {
+  color: #fff;
 }
 
 .steal_space {
-  margin-right: 40%;
+  margin-right: 52%;
 }
 .target_speed {
   font-size: 45px;
@@ -197,7 +216,19 @@
   justify-content: space-between;
 }
 
-/* .above_row:nth-child(an+b) */
+.below_row {
+  padding: 2%;
+}
+
+.current_breakout {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: rgb(152,236,243);
+}
+.retrograde {
+  font-weight: bold;
+}
+
 .third_box {
   width: 50%;
   display: flex;
@@ -205,10 +236,10 @@
   }
 
 .break_line {
-  background: red;
+  background: rgb(86,100,137);
   height: 3px;
   width: 90%;
-  margin:  0 3% 3% 3%;
+  margin:  0% 3% 1% 3%;
   border-radius: 20%;
 }
 .minus_index {

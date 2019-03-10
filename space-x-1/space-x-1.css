@@ -212,8 +212,12 @@ p {
   margin-top: 30px;
 }
 
-.sign img {
-  margin-left: 10px;
+.sign {
+  margin-left: 50px;
+  color: rgb(192,240,242);
+  font-family: 'Roboto';
+  margin-top: 13px;
+  font-size: 60px;
 }
 
 .first_box {
@@ -393,16 +397,26 @@ p {
   text-align: center;
   z-index: 3;
   }
+  .box_cell_line {
+    position: absolute;
+    background-color: rgb(156,237,241);
+    width: 3px;
+    height: 100%;
+    top: 0px;
+    left: 36%;
+    transition: all 2s linear;
+    z-index: 10;
+  }
 
-
-.box_cell_line {
-  position: absolute;
-  background-color: rgb(156,237,241);
-  width: 3px;
+.box_cell_time {
+  display: flex;
+  justify-content: space-around;
   height: 100%;
   top: 0px;
   left: 36%;
   transition: all 2s linear;
+  width: 90%;
+  margin-left: 5%;
 }
 
 

@@ -262,3 +262,28 @@ body {
   margin-left: 130px;
   margin-top: -10px;
 }
+.blue_box {
+  height:20px;
+}
+.abc {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.fifty {
+  margin-left: 14px;
+  margin-top: 5px;
+}
+
+.fc_state_last_fdir_state {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.fc_last {
+  font-size: 18px;
+}
